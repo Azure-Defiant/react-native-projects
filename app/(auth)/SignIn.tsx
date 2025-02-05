@@ -122,7 +122,7 @@ const SignIn = () => {
               source={require('@/assets/images/mojoGram.png')} 
             />
             <Text style={styles.title}>Welcome Back!</Text>
-            <Text style={styles.subtitle}>Sign In to continue :)</Text>
+            <Text style={styles.subtitle}>Log in to continue :)</Text>
 
             <View>
               <TextInput 
@@ -205,7 +205,7 @@ const SignIn = () => {
             </TouchableOpacity>
             <View style={styles.buttonContainer}>
             <CustomButton 
-                title="Sign In" 
+                title="Log in" 
                 onPress={signIn}
                 backgroundColor="#3A3B3C"
                 width={wp(70)}
@@ -344,6 +344,5 @@ const styles = StyleSheet.create({
 });
 
 
-// this is a comment
 
 
